@@ -1,0 +1,12 @@
+// examples/welcome.luma
+let name: string = "CompilerLab";
+let count: int = 3;
+
+print("Welcome to " + name);
+
+let i: int = 0;
+
+while (i < count) {
+    print(i);
+    i = i + 1;
+}

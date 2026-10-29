@@ -1,0 +1,10 @@
+let zero: int = 0;
+
+// The right-hand side is not evaluated when the left side decides the result,
+// so no division by zero happens here.
+if (false and (1 / zero > 0)) {
+    print("unreachable");
+}
+if (true or (1 / zero > 0)) {
+    print("short-circuit works");
+}

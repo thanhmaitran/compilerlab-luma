@@ -1,0 +1,6 @@
+let name: string = "Luma";
+let x: int = 10;
+let y: int = 20;
+
+print("Hello from " + name);
+print(x + y);

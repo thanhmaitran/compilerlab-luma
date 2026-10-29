@@ -1,0 +1,10 @@
+let x: int = 1;
+
+{
+    let x: int = 2;     // shadows the outer x
+    print(x);
+    x = x + 10;
+    print(x);
+}
+
+print(x);

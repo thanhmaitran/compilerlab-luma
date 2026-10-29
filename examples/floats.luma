@@ -1,0 +1,7 @@
+let radius: float = 2;      // an int converts implicitly to float
+let area: float = 3.5 * radius * radius;
+print(area);
+print(7 / 2);               // int / int truncates toward zero
+print(7 / 2.0);             // mixed arithmetic is float arithmetic
+print(-7 % 3);              // the remainder takes the sign of the dividend
+print(1 == 1.0);            // numbers compare across int and float

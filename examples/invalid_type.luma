@@ -1,0 +1,2 @@
+let age: int = "not a number";
+print(age);
